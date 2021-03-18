@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body{
+  line-height: 1.5;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+}
+#company-name{
+  background-color: #f44336;
+  position: fixed;
+  left: 0;
+  top: 0;
+    height: 100%;
+    width: 16%;
+    font-size: 1.5em;
+
+}
+h3{
+  color: white;
+  padding-left: 10px;
+
+}
+#menu a{
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  
+
+}
+#menu a:hover{
+  background-color: white;
+  color: black;
+
+}
+#main{
+  margin-left:18%;
+  margin-right:5%;
+
+}
+h1{
+  font-size: 3em;
+  font-weight: bold;
+
+}
+h2{
+  color: #f44336;
+  font-size: 2em;
+  text-align: left;
+}
+hr{
+  color: #f44336;
+  width: 55px;
+  margin: 15px 0;
+  border: 5px solid #f44336;
+  border-radius: 10px;
+}
+#Showcase img{
+  width: 40%;
+  margin: 3px;
+    opacity: 0.7;
+}
+#Showcase img:hover{
+  opacity: 1;
+}
+.class {
+   font-weight: 600;
+}
+.team {
+  display: inline-block;
+  width: 27%;
+  text-align: left;
+}
+.team img{
+  width: 100%;
+filter: grayscale(60%);
+} 
+.dolzhnost {
+  opacity: 0.4;
+}
+.name {
+  color: black;
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0;
+  text-align: left;
+  padding: 0;
+}
+.description {
+background-color: #f1f1f1;;
+padding: 10px;
+} 
+.spisok {
+  display: inline-block;
+  list-style: none;
+  background-color: #f1f1f1;
+  width: 30%; 
+  text-align: center;
+  padding: 0;
+  margin: 10px;
+
+}
+
+.spisok li{
+  border-bottom: 1px solid #D8D6D6;
+  padding: 16px 0;
+}
+.basic{
+  background-color: #959595;
+}
+.pro{
+  background-color: #f44336;
+}
+.basic,.pro{
+    font-size: 22px;
+  color: white;
+}
+#packages{
+  text-align: center;
+
+}
+.price{
+  font-size: 22px;
+}
+.v_den{
+  opacity: 0.6;
+}
+.link1{
+  text-decoration: none;
+  color: black;
+  padding: 15px 0px;
+    background-color: white;
+    border-radius: 9px;
+    display: block;
+    width: 50%;
+    max-width: 100px;
+    margin: 0 auto;
+}
+.link1:hover{
+  transform: scale(1.5);
+  transition-duration: 0.5s;
+}
+.link2{
+  text-decoration: none;
+  color: white;
+  padding: 15px 0px;
+    background-color: #f44336;
+    border-radius: 9px;
+    display: block;
+    width: 50%;
+    max-width: 100px;
+    margin: 0 auto;
+}
+.link2:hover{
+  transform: scale(1.5);
+  transition-duration: 0.5s;
+}
+form{
+  text-align: left;
+}
+input{
+  width: 100%;
+  font-size: 19px;
+  padding: 6px 0;
+}
+#form{
+  text-align: left;
+}
+#form button{
+  text-decoration: none;
+  color: white;
+  padding: 11px 0px;
+    background-color: #f44336;
+    border-radius: 6px;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    outline: none;
+    font-size: 16px;
+    min-width: 150px;
+
+}
+.end{
+  margin: 0px;
+  margin-top: 70px;
+  padding: 50px 0;
+  width: 100%;
+  text-align: right;
+  background-color: #f1f1f1;
+}
+.end p{
+  padding-right: 50px;
+}
+.people{
+  text-align: center;
+}
